@@ -1,0 +1,63 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* logo bar start */
+.logo_div{
+    height: 50px;
+    background-color: rgb(17, 17, 102);
+}
+
+.logo{
+    padding: 10px 0px 0px 10px;
+}
+
+.logo_text{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+}
+/* logo bar end */
+
+/* circle image div start */
+.circle {
+    background: lightblue;
+    border: 1px  black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+/* circle image div end */
+
+/* name_head h4 start */
+.name_head{
+    padding: 10px 0px 5px 0px;
+}
+/* name_head h4 end */
+
+.input_field_p_tag{
+    margin-bottom: 5px ;
+}
+
+/* cpbutton start */
+.cpbutton{
+    border-radius: 14px 14px 14px 14px;
+    border-color: rgb(151, 21, 21);
+    color: rgb(151, 21, 21);
+    height: 30px;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+/* cpbutton end */
+
+
+
+
+ 
