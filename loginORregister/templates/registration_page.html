@@ -42,14 +42,31 @@
                   <p><input placeholder="E-mail..." class="form-control" oninput="this.className = ''"></p>
                   <p><input placeholder="Phone..." class="form-control" oninput="this.className = ''"></p>
                   <p><input placeholder="Location..." class="form-control" oninput="this.className = ''"></p>
+                  <p><input class="form-control" type="file" id="formFileDisabled"></p>
                 </div>
-                
-                <div class="tab">Login Info:
-                  <p><input placeholder="Operator ID..." class="form-control" oninput="this.className = ''"></p>
+
+                <div class="tab">User Type Info:
+                  <p><select class="form-select" aria-label="Default select example" >
+                    <option value="" selected>Select User Type</option>
+                    <option value="operator">Operator</option>
+                    <option value="cashier">Cashier</option>
+                    <option value="customer">Customer</option>
+                  </select></p>
+                  <p><input placeholder="Your ID" class="form-control" oninput="this.className = ''"></p>
                   <p><input placeholder="Password..." class="form-control" oninput="this.className = ''"></p>
                   <p><input placeholder="Conform Password..." class="form-control" oninput="this.className = ''"></p>
                 </div>
-
+                
+                <div class="tab" >Customer Info:
+                    <p><select class="form-select" aria-label="Default select example" >
+                        <option value="" selected>Select Your Operator</option>
+                        <option value="Basil">Basil</option>
+                        <option value="Basheer">Basheer</option>
+                        <option value="Anoop">Anoop</option>
+                      </select></p>
+                  <p><input placeholder="Your Card Number" class="form-control" oninput="this.className = ''"></p>
+                  <p><input placeholder="Setup Box Number" class="form-control" oninput="this.className = ''"></p>
+                </div>
                 
                 
                 <div style="overflow:auto;">
@@ -64,6 +81,7 @@
                 
                 <!-- Circles which indicates the steps of the form: -->
                 <div style="text-align:center;margin-top:40px;">
+                  <span class="step"></span>
                   <span class="step"></span>
                   <span class="step"></span>
                   <span class="step"></span>
